@@ -1,0 +1,129 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+main {
+    background-color: rgb(243, 176, 176);
+}
+footer {
+    background-color: rgb(153, 14, 14);
+    color: aliceblue;
+    font-size: small;
+    box-shadow: 0 0 10px rgb(153, 14, 14);
+}
+.mediosdepago {
+    display: flex;
+    color: aliceblue;
+    justify-content: center;
+    padding-top: 10px;
+}
+.masvendidos {
+    display: flex;
+    background-color: rgb(153, 14, 14);
+    color: aliceblue;
+    justify-content: center;
+    margin-top: 20px;
+    border: solid 2px rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.redes-container {
+    align-items: center;
+}
+.footer-img {
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+}
+.footer-der p {
+    margin-top: 10px;
+}
+.footer-izq {
+    margin-top: 10px;
+}
+nav div form button {
+    background-image: url(../src/img/lupa.png);
+    background-size: cover;
+    width: 35px;
+}
+nav div a img {
+    border-radius: 10px;
+    width: 120px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+.nav-item:hover {
+    transition: transform 0.1s;
+    transform: scale(1.15);
+}
+nav div div ul li a {
+    color: aliceblue;
+}
+.bg-custom {
+    background-color: rgb(153, 14, 14);
+    box-shadow: 0 0 10px rgb(153, 14, 14);
+}
+.navbar-nav .nav-link {
+    color: aliceblue;
+    font-size: large;
+}
+.custom-search-input {
+    width: 400px;
+}
+.custom-toggler {
+    border-color: aliceblue;
+    background-color: aliceblue;
+}
+.custom-btn {
+    background-color: rgb(153, 14, 14);
+    color: aliceblue;
+}
+.dropdown-item {
+    color: aliceblue;
+}
+.dropdown {
+    display: flex;
+    justify-content: center;
+}
+.secciones {
+    background-color: rgb(153, 14, 14);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    border: solid 2PX #ffffff;
+    box-shadow: 0 0 10px #ffffff;
+}
+/*PAGINA INICIO DE SESION*/
+.form-ini {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.caja-ini {
+    width: 300px;
+    border: 4px solid #ffffff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(241, 110, 110);
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ffffff;
+}
+.form-label {
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+}
+.regis-ini {
+    font-size: small;
+    color: aliceblue;
+}
+.card-body {
+    background-color: rgb(241, 110, 110);
+    border: 4px solid #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ffffff;
+    color: #ffffff;
+}
