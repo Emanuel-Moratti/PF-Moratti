@@ -3,9 +3,9 @@
 main {
     background-color: map-get($fondos , fondo-secundario);
     div {
-        div{
-            div{
-                p {
+        div {
+            div {
+                .mediosdepago {
                     display: flex;
                     color: $color;
                     justify-content: center;
@@ -25,63 +25,34 @@ main {
                             text-shadow: none;
                         }
                     }
-            
                 }
             }
+            /*PAGINA INDEX*/
+            .masvendidos {
+                display: flex;
+                background-color: map-get($fondos , fondo-principal);
+                color: $color;
+                justify-content: center;
+                margin-top: 20px;
+                border: solid 2px rgb(255, 255, 255);
+                border-radius: 10px;
+            }
+            /*PAGINA PRODUCTOS*/
+            .card-body {
+                background-color: map-get($fondos , fondo-terciario);
+                border: 4px solid #ffffff;
+                border-radius: 10px;
+                box-shadow: 0 0 10px #ffffff;
+                color: $color;
+            }
         }
-    }
-    /*PAGINA INDEX*/
-    .masvendidos {
-        display: flex;
-        background-color: map-get($fondos , fondo-principal);
-        color: $color;
-        justify-content: center;
-        margin-top: 20px;
-        border: solid 2px rgb(255, 255, 255);
-        border-radius: 10px;
-    }
-    /*PAGINA PRODUCTOS*/
-    .secciones {
-        background-color: map-get($fondos , fondo-principal);
-        color: $color;
-        display: flex;
-        justify-content: center;
-        border: solid 2PX #ffffff;
-        box-shadow: 0 0 10px #ffffff;
-    }
-    .card-body {
-        background-color: map-get($fondos , fondo-terciario);
-        border: 4px solid #ffffff;
-        border-radius: 10px;
-        box-shadow: 0 0 10px #ffffff;
-        color: $color;
-    }
-    /*CAJAS FORMULARIOS*/
-    .form-ini {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 100vh;
-    }
-    .caja-ini {
-        width: 300px;
-        border: 4px solid #ffffff;
-        padding: 20px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        background-color: rgb(241, 110, 110);
-        border-radius: 10px;
-        box-shadow: 0 0 10px #ffffff;
-    }
-    .form-label {
-        display: flex;
-        justify-content: center;
-        color: $color;
-    }
-    .regis-ini {
-        font-size: small;
-        color: $color;
+        .secciones {
+            background-color: map-get($fondos , fondo-principal);
+            color: $color;
+            display: flex;
+            justify-content: center;
+            border: solid 2PX #ffffff;
+            box-shadow: 0 0 10px #ffffff;
+        }
     }
 }

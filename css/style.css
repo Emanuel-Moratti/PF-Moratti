@@ -44,13 +44,46 @@ footer .footer-izq {
   border: solid aliceblue 1px;
 }
 
+/*Cajas de formularios*/
+.form-ini {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.caja-ini {
+  width: 300px;
+  border: 4px solid #ffffff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(241, 110, 110);
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ffffff;
+}
+
+.form-label {
+  display: flex;
+  justify-content: center;
+  color: aliceblue;
+}
+
+.regis-ini {
+  font-size: small;
+  color: aliceblue;
+}
+
 main {
   background-color: rgb(243, 176, 176);
+}
+main div div {
   /*PAGINA INDEX*/
   /*PAGINA PRODUCTOS*/
-  /*CAJAS FORMULARIOS*/
 }
-main div div div p {
+main div div div .mediosdepago {
   display: flex;
   color: aliceblue;
   justify-content: center;
@@ -71,7 +104,7 @@ main div div div p {
     text-shadow: none;
   }
 }
-main .masvendidos {
+main div div .masvendidos {
   display: flex;
   background-color: rgb(153, 14, 14);
   color: aliceblue;
@@ -80,47 +113,20 @@ main .masvendidos {
   border: solid 2px rgb(255, 255, 255);
   border-radius: 10px;
 }
-main .secciones {
+main div div .card-body {
+  background-color: rgb(241, 110, 110);
+  border: 4px solid #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ffffff;
+  color: aliceblue;
+}
+main div .secciones {
   background-color: rgb(153, 14, 14);
   color: aliceblue;
   display: flex;
   justify-content: center;
   border: solid 2PX #ffffff;
   box-shadow: 0 0 10px #ffffff;
-}
-main .card-body {
-  background-color: rgb(241, 110, 110);
-  border: 4px solid #ffffff;
-  border-radius: 10px;
-  box-shadow: 0 0 10px #ffffff;
-  color: aliceblue;
-}
-main .form-ini {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-}
-main .caja-ini {
-  width: 300px;
-  border: 4px solid #ffffff;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: rgb(241, 110, 110);
-  border-radius: 10px;
-  box-shadow: 0 0 10px #ffffff;
-}
-main .form-label {
-  display: flex;
-  justify-content: center;
-  color: aliceblue;
-}
-main .regis-ini {
-  font-size: small;
-  color: aliceblue;
 }
 
 nav div a img {
