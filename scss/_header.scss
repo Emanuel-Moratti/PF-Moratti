@@ -1,0 +1,47 @@
+@import "variables";
+nav {
+    div {
+        a {
+            img {
+                border-radius: 10px;
+                width: 120px;
+                box-shadow: 0 0 10px rgb(255, 255, 255);
+            }
+        }
+        div {
+            form {
+                button {
+                    background-image: url(../src/img/lupa.png);
+                    background-size: cover;
+                    width: 35px;
+                
+                }
+            }
+            ul li a {
+                color: $color;
+            }
+        }
+    }
+}
+.nav-item:hover {
+    transition: transform 0.1s;
+    transform: scale(1.15);
+}
+.navbar-nav .nav-link {
+    color: $color;
+    font-size: large;
+}
+.custom-search-input {
+    width: 400px;
+}
+.custom-toggler {
+    border-color: aliceblue;
+    background-color: aliceblue;
+}
+.dropdown-item {
+    color: $color;
+}
+.dropdown {
+    display: flex;
+    justify-content: center;
+}

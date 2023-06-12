@@ -1,0 +1,22 @@
+@import "variables";
+@import "maps";
+footer {
+    background-color: map-get($fondos , fondo-principal);
+    color: $color;
+    font-size: small;
+    box-shadow: 0 0 10px rgb(153, 14, 14);
+    .redes-container {
+        align-items: center;
+    }
+    .footer-img {
+        margin: 5px;
+        width: 30px;
+        height: 30px;
+    }
+    .footer-der p {
+        margin-top: 10px;
+    }
+    .footer-izq {
+        margin-top: 10px;
+    }
+}
