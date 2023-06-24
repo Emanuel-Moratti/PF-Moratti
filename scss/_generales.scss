@@ -9,11 +9,11 @@
     background-color: map-get($fondos , fondo-principal);
     box-shadow: 0 0 10px rgb(153, 14, 14);
 }
-/*botones de todo el sitio*/
+/*botones de todo el sitioasdasdasdasd*/
 .custom-btn {
     background-color: map-get($fondos , fondo-principal);
     color: $color;
-    @include botones(200px, 40px, 5px 10px);
+    @include botones(110px, 40px, 5px 10px);
     &:hover {
         background-color: rgb(240, 67, 67);
         transition: transform 0.1s;
@@ -49,4 +49,3 @@
     font-size: small;
     color: $color;
 }
-

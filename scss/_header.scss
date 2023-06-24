@@ -10,38 +10,45 @@ nav {
         }
         div {
             form {
+                .custom-search-input {
+                    width: 400px;
+                    @media (max-width: 576px) {
+                        width: 100%;
+                    }
+                }
                 button {
                     background-image: url(../src/img/lupa.png);
                     background-size: cover;
                     width: 35px;
-                
                 }
             }
-            ul li a {
-                color: $color;
+            ul {
+                li {
+                    .nav-link {
+                        color: $color;
+                        font-size: large;
+                    }
+                    &:hover {
+                        transition: transform 0.1s;
+                        transform: scale(1.15);
+                    }
+                }
             }
+            .navbar-nav{
+                color: $color;
+                font-size: large;
+                @media (max-width: 576px) {
+                    align-items: center;
+                }
+            }
+        }
+        .custom-toggler {
+            border-color: aliceblue;
+            background-color: aliceblue;
         }
     }
 }
-.nav-item:hover {
-    transition: transform 0.1s;
-    transform: scale(1.15);
-}
-.navbar-nav .nav-link {
+.navbar-nav .nav-link{
     color: $color;
     font-size: large;
-}
-.custom-search-input {
-    width: 400px;
-}
-.custom-toggler {
-    border-color: aliceblue;
-    background-color: aliceblue;
-}
-.dropdown-item {
-    color: $color;
-}
-.dropdown {
-    display: flex;
-    justify-content: center;
 }

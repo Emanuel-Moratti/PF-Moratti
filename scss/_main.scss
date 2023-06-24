@@ -1,6 +1,7 @@
 @import "variables";
 @import "maps";
 main {
+    overflow-x: hidden;
     background-color: map-get($fondos , fondo-secundario);
     div {
         div {
@@ -44,7 +45,19 @@ main {
                 border-radius: 10px;
                 box-shadow: 0 0 10px #ffffff;
                 color: $color;
+                @media (max-width: 576px) {
+
+                }
             }
+            ul {
+                .dropdown-item {
+                    color: $color;
+                }
+            }
+        }
+        .dropdown {
+            display: flex;
+            justify-content: center;
         }
         .secciones {
             background-color: map-get($fondos , fondo-principal);
@@ -53,6 +66,12 @@ main {
             justify-content: center;
             border: solid 2PX #ffffff;
             box-shadow: 0 0 10px #ffffff;
+        }
+        .card {
+            width: 17rem;
+            @media (max-width: 576px) {
+                width: 12rem;
+            }
         }
     }
 }
